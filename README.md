@@ -51,7 +51,7 @@ npm i
 ```bash
 node main.js
 ```
-5. How to use Auto Refer:
+## How to use Auto Refer:
 
 ```bash
 nano utils/config.js
