@@ -42,6 +42,9 @@ npm i
 
 4. Configure your wallets:
    - Edit `data.txt` file in the root directory
+  ```bash
+nano data.txt
+```
    - Add your wallet private keys (one per line)`
      
 ## Usage
