@@ -4,19 +4,19 @@ An automation tool designed to help users manage their LayerEdge light nodes eff
 
 
 
-## Prerequisites
+## Requirements
 
 Before running the bot, make sure you have:
 
 - Node.js (v16 or higher)
 - npm (Node Package Manager)
-- A LayerEdge account (register with referral code: `7FYJLWy2`)
+- A LayerEdge account (register with referral code: `u9NH68wt`)
 - Wallet private keys for activation
 
 ## Registration
 
 1. Visit [LayerEdge Dashboard](https://dashboard.layeredge.io)
-2. Enter the referral code: `7FYJLWy2`
+2. Enter the referral code: `u9NH68wt`
 3. Connect your wallet and complete the registration
 4. Start earning points by running a light node!
 
@@ -25,36 +25,24 @@ Before running the bot, make sure you have:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/zainarain279/LayerEdge-BOT.git
+git clone https://github.com/Not-D4rkCipherX/Layer-Edge.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd LayerEdge-BOT
+cd Layer-Edge
 ```
 
 3. Install dependencies:
 
 ```bash
-npm install axios ethers figlet
+npm i
 ```
 
 4. Configure your wallets:
    - Edit `data.txt` file in the root directory
    - Add your wallet private keys (one per line)`
-
-## Project Structure
-
-```
-LayerEdge/
-├── main.js          # Main application file
-├── data.txt         # Private keys configuration
-├── package.json     # Project dependencies
-└── config/
-    ├── banner.js    # Dashboard banner configuration
-    ├── colors.js    # Color scheme configuration
-    └── ...
 ```
 
 ## Usage
@@ -64,8 +52,18 @@ LayerEdge/
 ```bash
 node main.js
 ```
+5. How to use Auto Refer:
 
-2. Controls:
+```bash
+nano utils/config.js
+```
+Put your refer code and refer amount on ref_code:xxxxx & num_ref:100
+Then Run the script..
+```bash
+node autoref.js
+```
+All Done..
+## Controls:
    - ↑/↓: Navigate between wallets
    - ←/→: Change pages
    - Ctrl+C: Exit program
@@ -84,4 +82,3 @@ node main.js
 - Signature-based node activation
 - Continuous ping to maintain node status
 - Configurable ping interval
-.
