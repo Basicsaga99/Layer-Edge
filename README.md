@@ -43,8 +43,7 @@ npm i
 4. Configure your wallets:
    - Edit `data.txt` file in the root directory
    - Add your wallet private keys (one per line)`
-```
-
+     
 ## Usage
 
 1. Start the bot:
